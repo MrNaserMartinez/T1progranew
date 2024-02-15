@@ -1,5 +1,5 @@
 ﻿
-Console.WriteLine("Bievenido al primer programa con muchos datos\n\n");
+Console.WriteLine("Bievenido al primer programa con muchos datos feliz feliz\n\n");
 
 Console.WriteLine("Primera series\n 1. Conversión de tipo\n \n ");
 
