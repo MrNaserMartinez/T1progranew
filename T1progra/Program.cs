@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Bievenido al primer programa con muchos datos\n\n");
+﻿using System;
+
+Console.WriteLine("Bievenido al primer programa con muchos datos\n\n");
 
 Console.WriteLine("Primera series\n 1. Conversión de tipo\n \n ");
 
@@ -19,4 +21,13 @@ Console.WriteLine("Ingresa el número para el proceso\n");
 decimal n5 = Convert.ToDecimal(Console.ReadLine());
 float n6 = Convert.ToSingle(n5);
 Console.WriteLine($"El número flotante es: {n6}\n");
+
+Console.WriteLine("Ingrese un carácter:");
+char n7 = Console.ReadKey().KeyChar; 
+int n8 = (int)n7;
+Console.WriteLine($"\nEl valor entero del carácter '{n7}' es: {n8}");
+
+
+
+
 
