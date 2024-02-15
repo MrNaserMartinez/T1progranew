@@ -27,7 +27,8 @@ char n7 = Console.ReadKey().KeyChar;
 int n8 = (int)n7;
 Console.WriteLine($"\nEl valor entero del carácter '{n7}' es: {n8}");
 
-
-
-
+Console.WriteLine("Ingrese un entero para hacerlo caracter");
+int nEntero = Convert.ToInt32(Console.ReadLine());
+char nCaracter = Convert.ToChar(nEntero);
+Console.WriteLine("El caracter es " + nCaracter);
 
