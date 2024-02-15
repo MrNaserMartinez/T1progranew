@@ -8,7 +8,7 @@ int n1 = Convert.ToInt32(Console.ReadLine());
 decimal n2 = Convert.ToDecimal(n1);
 Console.WriteLine($"El número decimal es: {n2}\n");
 
-Console.WriteLine("*Conversión de número decimal a flotante:");
+Console.WriteLine("*Conversión de número decimal a flotante:a");
 Console.WriteLine("Ingresa el número para el proceso\n");
 decimal n3 = Convert.ToDecimal(Console.ReadLine());
 float n4 = Convert.ToSingle(n3);
