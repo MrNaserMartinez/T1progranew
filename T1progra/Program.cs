@@ -16,7 +16,7 @@ decimal n3 = Convert.ToDecimal(Console.ReadLine());
 float n4 = Convert.ToSingle(n3);
 Console.WriteLine($"El número flotante es: {n4}\n");
 
-Console.WriteLine("*Conversión de número flotante a entero:");
+Console.WriteLine("*Conversión de número flotante a enteroo:");
 Console.WriteLine("Ingresa el número para el proceso\n");
 decimal n5 = Convert.ToDecimal(Console.ReadLine());
 float n6 = Convert.ToSingle(n5);
