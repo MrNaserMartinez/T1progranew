@@ -19,3 +19,4 @@ Console.WriteLine("Ingresa el número para el proceso\n");
 decimal n5 = Convert.ToDecimal(Console.ReadLine());
 float n6 = Convert.ToSingle(n5);
 Console.WriteLine($"El número flotante es: {n6}\n");
+
