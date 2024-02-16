@@ -9,3 +9,8 @@ string text = Console.ReadLine();
 string Mayus = text.ToUpper();
 Console.WriteLine($"La cadena en mayúsculas es: {Mayus}");
 
+Console.WriteLine("*Ingrese una cadena de texto:");
+string text1 = Console.ReadLine();
+string Minu = text1.ToLower();
+Console.WriteLine($"La cadena en mayúsculas es: {Minu}");
+
