@@ -1,6 +1,6 @@
 ﻿using System;
 
-Console.WriteLine("Bievenido al primer programa con muchos datos\n\n");
+Console.WriteLine("Bienvenido al sistema del ejercicio 2da semana\n\n");
 
 Console.WriteLine("Primera series\n 1. Conversión de tipo\n \n ");
 
