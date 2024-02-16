@@ -42,3 +42,9 @@ Console.WriteLine("Ingrese los grados celsius:");
 double g1 = Convert.ToDouble(Console.ReadLine());
 double resul= (g1 * 9 / 5) + 32; ;
 Console.WriteLine($"El resultado a Fahrenheit es: {resul}\n ");
+
+Console.WriteLine("*De Fahrenheit a celsius");
+Console.WriteLine("Ingrese los grados Fharenheit:");
+double g2 = Convert.ToDouble(Console.ReadLine());
+double resul2 = (g2 - 32) * 5 / 9;
+Console.WriteLine($"El resultado a Fahrenheit es: {resul2}\n ");
