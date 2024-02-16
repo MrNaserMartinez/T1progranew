@@ -26,3 +26,31 @@ for (int i = cadena.Length - 1; i >= 0; i--)
 }
 Console.WriteLine($"La cadena invertida es: {cadenaInvertida}\n");
 
+Console.WriteLine("*Tu buscador de textos");
+Console.WriteLine("Ingrese tu frase favorita:");
+string texto = Console.ReadLine();
+Console.WriteLine("Ingrese la palabra que desea buscar:");
+string palabraABuscar = Console.ReadLine();
+bool palabraEncontrada = texto.Contains(palabraABuscar);
+if (palabraEncontrada)
+{
+    Console.WriteLine($"La palabra '{palabraABuscar}' fue encontrada en el texto.\n");
+}
+else
+{
+    Console.WriteLine($"La palabra '{palabraABuscar}' no fue encontrada en el texto.\n");
+}
+
+Console.WriteLine("*Cuantas vocales hay?");
+Console.WriteLine("Pon tu palabra");
+string palabra = Console.ReadLine().ToLower();
+int contador = 0;
+
+for (int i = 0; i < palabra.Length; i++)
+{
+    if (palabra[i] == 'a' || palabra[i] == 'e' || palabra[i] == 'i' || palabra[i] == 'o' || palabra[i] == 'u')
+    {
+        contador++;
+    }
+}
+Console.WriteLine("Las vocales son: " + contador);
