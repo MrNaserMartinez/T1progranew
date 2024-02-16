@@ -35,8 +35,10 @@ double fin1 = p1 * p1;
 double fin2 = p2 * p2;
 double final = fin1 + fin2;
 double raiz = Math.Sqrt(final);
-Console.WriteLine($"El resultado es: {raiz}");
+Console.WriteLine($"El resultado es: {raiz}\n ");
 
-
-
-
+Console.WriteLine("*De celsius a Fahrenheit");
+Console.WriteLine("Ingrese los grados celsius:");
+double g1 = Convert.ToDouble(Console.ReadLine());
+double resul= (g1 * 9 / 5) + 32; ;
+Console.WriteLine($"El resultado a Fahrenheit es: {resul}\n ");
