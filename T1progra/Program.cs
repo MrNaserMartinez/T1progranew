@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 Console.WriteLine("Bievenido al primer programa con muchos datos\n\n");
 
@@ -19,4 +20,23 @@ double pi2 = 3.1416;
 double volumen = ((4.0/3.0)*pi2)*(radio*radio*radio);
 Console.WriteLine($"El volumen de la esfera es: {volumen}");
 
-Console.WriteLine("*Cacular el volumen de una esfera");
+Console.WriteLine("*Cacular distancia entre dos puntos");
+Console.WriteLine("Ingrese punto X 1:");
+double x1 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Ingrese punto Y 1:");
+double y1 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Ingrese punto X 2:");
+double x2 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Ingrese punto Y 2:");
+double y2 = Convert.ToDouble(Console.ReadLine());
+double p1 = (x2 - x1);
+double p2 = (y2 - y1);
+double fin1 = p1 * p1;
+double fin2 = p2 * p2;
+double final = fin1 + fin2;
+double raiz = Math.Sqrt(final);
+Console.WriteLine($"El resultado es: {raiz}");
+
+
+
+
